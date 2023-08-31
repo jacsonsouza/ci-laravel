@@ -11,7 +11,7 @@ class AnimalTest extends TestCase
     {
         $animal = new Animal('Gato');
 
-        $this->assertEquals('Miau', $animal->getItsSound());
+        $this->assertEquals('Au Au', $animal->getItsSound());
     }
 
     public function test_that_count_animals(): void
